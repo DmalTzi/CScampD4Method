@@ -51,6 +51,7 @@ public class LabQ2 {
          *      print message
          */
         /* Start Your Code At Here */
+        System.out.println(message);
     }
 
     /* q2 */

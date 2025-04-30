@@ -1,5 +1,5 @@
 import java.util.Arrays;
-public class LabQ1 {
+public class Lab3_1 {
     //  โจทย์:
     //      ให้เต็มคำที่ขาดหายไปให้ถูกต้อง และสามารถรันได้
     //      สามารถเขียนทับได้เลย 
@@ -56,22 +56,22 @@ public class LabQ1 {
         return pow;
     }
 
-    static /*q3*/ addLabel(String name) {
+    static String addLabel(String name) {
         String newName = name + "lnwza";
-        return /*q4*/;
+        return newName;
     }
     
-    static boolean contain(/*q5*/ word, String c) {
+    static boolean contain(String  word, String c) {
         for (int i = 0; i < word.length(); i++) {
             if (word.charAt(i) == c.charAt(0)) {
                 return true;
             }
         }
-        /*q6*/ false;
+        return false;
     }
 
-    static int maxValue(/*q7*/ arr) {
-        /*q8*/ max = Integer.MIN_VALUE;
+    static int maxValue(int[] arr) {
+        int max = Integer.MIN_VALUE;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] > max)
                 max = arr[i];
@@ -79,7 +79,7 @@ public class LabQ1 {
         return max;
     }
 
-    static /*q9*/ sort(int[] arr) {
+    static void sort(int[] arr) {
         for (int i = 0; i < arr.length-1; i++) {
             int min = i;
             for (int j = i+1; j < arr.length; j++) {
@@ -87,7 +87,7 @@ public class LabQ1 {
                     min = j;
                 }
             }
-            int /*q10*/ = arr[i];
+            int temp = arr[i];
             arr[i] = arr[min];
             arr[min] = temp;
         }

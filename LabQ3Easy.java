@@ -25,12 +25,12 @@ public class LabQ3Easy {
      *  ตัวอย่าง:
      *      ข้อมูลนำเข้า:
      *          CScamp17
-     *          3
+     *          ไม่ใช่ 3 แต่ เป็น 2
      *          6
      *      ข้อมูลส่งออก:
      *          camp
      *      อธิบาย:
-     *          index ที่ 3 ของ word คือ c และ index ที่ก่อน 6 คือ p
+     *          index ที่ ไม่ใช่ 3 แต่ เป็น 2 ของ word คือ c และ index ที่ก่อน 6 คือ p
      * 
      */
     public static void main(String[] args) {
